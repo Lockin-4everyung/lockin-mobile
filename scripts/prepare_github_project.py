@@ -56,7 +56,7 @@ def main():
         task_id = task["id"]
         criteria = [part.strip() for part in task["acceptance_criteria"].split(";") if part.strip()]
         body = [
-            f"## Mục tiêu\n\n{task['title']}.", 
+            f"## Mục tiêu\n\n{task['title']}.",
             f"## Theo dõi\n\n- Task ID: {task_id}\n- Milestone: {task['milestone']}\n"
             f"- Status đề xuất: {manifest['status_mapping'][task['status']]}\n"
             "- Assignee: để trống theo yêu cầu người dùng, sẽ phân công sau.",

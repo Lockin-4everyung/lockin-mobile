@@ -1,0 +1,72 @@
+{
+  "verified_on": "2026-10-19",
+  "public": true,
+  "items": 20,
+  "status_counts": {
+    "In Review": 5,
+    "Backlog": 15
+  },
+  "milestones": 4,
+  "unassigned": 20,
+  "views": [
+    {
+      "number": 1,
+      "name": "View 1",
+      "layout": "BOARD_LAYOUT"
+    },
+    {
+      "number": 2,
+      "name": "All Tasks",
+      "layout": "TABLE_LAYOUT"
+    }
+  ],
+  "public_links": [
+    {
+      "url": "https://github.com/Lockin-4everyung/lockin-mobile",
+      "http_status": 200,
+      "authenticated": false
+    },
+    {
+      "url": "https://github.com/Lockin-4everyung/lockin-mobile/wiki",
+      "http_status": 200,
+      "authenticated": false
+    },
+    {
+      "url": "https://github.com/Lockin-4everyung/lockin-mobile/wiki/13-Project-Foundation-Plan",
+      "http_status": 200,
+      "authenticated": false
+    },
+    {
+      "url": "https://github.com/Lockin-4everyung/lockin-mobile/wiki/14-Traceability-Matrix",
+      "http_status": 200,
+      "authenticated": false
+    },
+    {
+      "url": "https://github.com/Lockin-4everyung/lockin-mobile/wiki/11-Critical-User-Flows",
+      "http_status": 200,
+      "authenticated": false
+    },
+    {
+      "url": "https://github.com/Lockin-4everyung/lockin-mobile/wiki/Survey-Summary",
+      "http_status": 200,
+      "authenticated": false
+    },
+    {
+      "url": "https://github.com/orgs/Lockin-4everyung/projects/1/views/1",
+      "http_status": 200,
+      "authenticated": false
+    },
+    {
+      "url": "https://github.com/orgs/Lockin-4everyung/projects/1/views/2",
+      "http_status": 200,
+      "authenticated": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lockin-4everyung/lockin-mobile/main/docs/research/survey-summary.json",
+      "http_status": 200,
+      "authenticated": false
+    }
+  ],
+  "mermaid": "Both flowchart-v2 definitions parsed successfully; live visual review remains a team review task.",
+  "submission": "Not submitted to course portal."
+}
