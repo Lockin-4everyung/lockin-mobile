@@ -2,7 +2,7 @@
 
 LockIn nghiên cứu liệu lời hẹn tự học với bạn quen, có giờ rõ, RSVP và check-in, tạo đủ giá trị so với chat/lịch để người dùng chủ động quay lại.
 
-**Bắt đầu tại [GitHub Wiki - Assignment 1](https://github.com/Lockin-4everyung/lockin-mobile/wiki).** [Bản nguồn trong repo](docs/wiki/Home.md) dựa trên ZIP mục 2.1–2.11, đã sửa mâu thuẫn, đối chiếu 12 phản hồi khảo sát và bổ sung 2.12, kế hoạch, traceability và checklist nộp bài.
+**Bắt đầu tại [GitHub Wiki - Assignment 1](https://github.com/Lockin-4everyung/lockin-mobile/wiki).**
 
 | Điểm truy cập | Trạng thái ngày 19/10/2026 |
 |---|---|
@@ -26,5 +26,3 @@ Mobile là hướng để thử nghiệm. H1 về giá trị vượt công cụ 
 - [Hướng dẫn đưa lên GitHub](docs/PUBLISHING.md). Export chỉ tạo thư mục dist/wiki local; không push hoặc thay đổi GitHub.
 - [Backlog CSV](planning/backlog.csv), [mốc công việc](planning/milestones.csv), [những sửa đổi](docs/REVIEW-NOTES.md).
 - [Đối tượng GitHub đã tạo](planning/github/published-state.json): issue URL, milestone và Project item thật. Assignee được để trống theo yêu cầu người dùng; deadline chưa tự đặt.
-
-Không cần triển khai app/backend hoặc làm UI hoàn chỉnh cho Assignment 1. Tài liệu phân biệt survey [S], nguồn chính thức [D], suy luận [I] và kế hoạch chưa chạy [P].
