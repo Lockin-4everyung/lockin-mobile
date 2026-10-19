@@ -1,0 +1,13 @@
+# Private research and generated previews stay local.
+.private/
+.cache/
+dist/
+node_modules/
+__pycache__/
+*.pyc
+*.xlsx
+*.xls
+*.env
+.env
+.env.*
+!.env.example

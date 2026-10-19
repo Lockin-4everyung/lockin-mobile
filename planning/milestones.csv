@@ -1,0 +1,5 @@
+id,title,relative_target,exit_criteria,due_date
+M1,Assignment 1 foundation,Before confirmed course submission,Team review and owners confirmed; public Wiki and Project; links checked,
+M2,Discovery follow-up and design,Weeks 1–2 after M1,Interview and task-test evidence; prototype; revised scope and capacity,
+M3,Core mobile pilot build,Weeks 3–4,End-to-end MVP; access sync timezone reminder tests pass,
+M4,Pilot and decision,Weeks 5–6 plus 7-day repeat window,Report matched baseline and LockIn sessions; missing data; reasoned H1 decision,

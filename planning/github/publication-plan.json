@@ -1,0 +1,211 @@
+{
+  "organization": "Lockin-4everyung",
+  "repository": "lockin-mobile",
+  "project_number": 1,
+  "project_url": "https://github.com/orgs/Lockin-4everyung/projects/1/views/1",
+  "checked_public_on": "2026-10-19",
+  "publication_status": "applied_to_project",
+  "assignees": "Intentionally deferred by user; do not invent usernames.",
+  "status_mapping": {
+    "Backlog": "Backlog",
+    "To Do": "Todo",
+    "In Progress": "In Progress",
+    "Review": "In Review",
+    "Done": "Done"
+  },
+  "milestones": [
+    {
+      "key": "M1",
+      "title": "M1 - Assignment 1 Foundation",
+      "description": "Tài liệu được review; Wiki và Project public; kiểm tra evidence/links. Phân công thành viên sẽ bổ sung sau theo yêu cầu người dùng."
+    },
+    {
+      "key": "M2",
+      "title": "M2 - Discovery Follow-up and Design",
+      "description": "Nghiên cứu tiếp theo protocol, so sánh baseline/prototype, cập nhật quyết định và chốt scope/capacity."
+    },
+    {
+      "key": "M3",
+      "title": "M3 - Core Mobile MVP",
+      "description": "Luồng tạo hẹn, mời, RSVP, reminder, check-in, outcome hoạt động; kiểm thử quyền, offline, retry và timezone."
+    },
+    {
+      "key": "M4",
+      "title": "M4 - Pilot and Product Decision",
+      "description": "Chạy pilot khi có consent và mẫu phù hợp; ghi dữ liệu thiếu; đánh giá H1 và quyết định Keep/Revise/Reject/Investigate further."
+    }
+  ],
+  "issues": [
+    {
+      "task_id": "T-01",
+      "title": "[T-01] Đối chiếu survey, provenance và limitations",
+      "milestone_key": "M1",
+      "status": "In Review",
+      "body_file": "issues/T-01.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-02",
+      "title": "[T-02] Xác nhận recruitment và tuyển follow-up có consent",
+      "milestone_key": "M2",
+      "status": "Backlog",
+      "body_file": "issues/T-02.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-03",
+      "title": "[T-03] Thực hiện critical-incident interviews",
+      "milestone_key": "M2",
+      "status": "Backlog",
+      "body_file": "issues/T-03.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-04",
+      "title": "[T-04] Task comparison baseline và prototype",
+      "milestone_key": "M2",
+      "status": "Backlog",
+      "body_file": "issues/T-04.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-05",
+      "title": "[T-05] Review direction, decisions, scope và canvas",
+      "milestone_key": "M1",
+      "status": "In Review",
+      "body_file": "issues/T-05.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-06",
+      "title": "[T-06] Xác nhận roster, membership, owners và Project",
+      "milestone_key": "M1",
+      "status": "Backlog",
+      "body_file": "issues/T-06.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-07",
+      "title": "[T-07] Spike identity/invite, target device và sync feasibility",
+      "milestone_key": "M2",
+      "status": "Backlog",
+      "body_file": "issues/T-07.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-08",
+      "title": "[T-08] Prototype hai flows và review logic",
+      "milestone_key": "M2",
+      "status": "Backlog",
+      "body_file": "issues/T-08.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-09",
+      "title": "[T-09] Lịch, tạo commitment, timezone và cancellation",
+      "milestone_key": "M3",
+      "status": "Backlog",
+      "body_file": "issues/T-09.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-10",
+      "title": "[T-10] Identity, invite và RSVP an toàn",
+      "milestone_key": "M3",
+      "status": "Backlog",
+      "body_file": "issues/T-10.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-11",
+      "title": "[T-11] Local reminder, opt-out và calendar fallback",
+      "milestone_key": "M3",
+      "status": "Backlog",
+      "body_file": "issues/T-11.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-12",
+      "title": "[T-12] Check-in và shared participant view",
+      "milestone_key": "M3",
+      "status": "Backlog",
+      "body_file": "issues/T-12.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-13",
+      "title": "[T-13] Outcome tự báo và lịch sử cá nhân",
+      "milestone_key": "M3",
+      "status": "Backlog",
+      "body_file": "issues/T-13.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-14",
+      "title": "[T-14] Kiểm thử access, offline, retry, timezone và cancellation",
+      "milestone_key": "M3",
+      "status": "Backlog",
+      "body_file": "issues/T-14.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-15",
+      "title": "[T-15] Chạy pilot và quan sát repeat",
+      "milestone_key": "M4",
+      "status": "Backlog",
+      "body_file": "issues/T-15.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-16",
+      "title": "[T-16] Đánh giá H1 và cập nhật quyết định",
+      "milestone_key": "M4",
+      "status": "Backlog",
+      "body_file": "issues/T-16.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-17",
+      "title": "[T-17] Publish repo/Wiki và đưa tasks lên Project thật",
+      "milestone_key": "M1",
+      "status": "In Review",
+      "body_file": "issues/T-17.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-18",
+      "title": "[T-18] Kiểm tra links, IDs, aggregate và Mermaid",
+      "milestone_key": "M1",
+      "status": "In Review",
+      "body_file": "issues/T-18.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-19",
+      "title": "[T-19] Chốt protocol, thresholds, metric và visibility policy",
+      "milestone_key": "M1",
+      "status": "In Review",
+      "body_file": "issues/T-19.md",
+      "assignees": []
+    },
+    {
+      "task_id": "T-20",
+      "title": "[T-20] Kiểm tra public entry và nộp theo deadline thật",
+      "milestone_key": "M1",
+      "status": "Backlog",
+      "body_file": "issues/T-20.md",
+      "assignees": []
+    }
+  ],
+  "table_view": {
+    "name": "All Tasks",
+    "layout": "table",
+    "visible_fields": [
+      "Title",
+      "Assignees",
+      "Status",
+      "Milestone"
+    ]
+  },
+  "dates": "No due dates supplied; leave unset."
+}

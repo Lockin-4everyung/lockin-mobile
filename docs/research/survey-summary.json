@@ -1,0 +1,152 @@
+{
+  "source": {
+    "id": "S-01",
+    "type": "Google Forms self-report",
+    "sheet": "Câu trả lời biểu mẫu 1",
+    "read_range": "A2:AC113 (AD contact column excluded)",
+    "collection_dates": "2026-10-08/2026-10-12",
+    "checked_on": "2026-10-19",
+    "n": 12,
+    "recruitment": "HCMUT-internal according to ZIP; recruitment channel and individual affiliation not verified",
+    "privacy": "Aggregate only. No contact details, exact timestamps or respondent-level rows."
+  },
+  "counts": {
+    "screening_student": {
+      "Có": 12
+    },
+    "screening_recent_self_study": {
+      "Có": 12
+    },
+    "Q1_year": {
+      "Năm 4": 8,
+      "Năm 3": 4
+    },
+    "Q2_days": {
+      "5-7 ngày": 2,
+      "1-2 ngày": 4,
+      "3-4 ngày": 6
+    },
+    "Q3_recent_session": {
+      "Tôi bắt đầu nhưng trễ hơn dự định": 6,
+      "Tôi bắt đầu gần đúng thời gian dự định và hoàn thành phần lớn kế hoạch": 1,
+      "Tôi bắt đầu nhưng bỏ giữa chừng": 2,
+      "Tôi trì hoãn và cuối cùng không học": 2,
+      "Tôi không nhớ rõ": 1
+    },
+    "Q4_reasons": {
+      "tired": 8,
+      "phone_entertainment": 7,
+      "hard_to_start": 6
+    },
+    "Q5_methods": {
+      "alone": 7,
+      "todo": 5,
+      "library_cafe": 4,
+      "friends": 3,
+      "calls": 2,
+      "blocker": 2,
+      "pomodoro": 1,
+      "discord_room": 1
+    },
+    "Q6_friend_appointments": {
+      "Có, vài lần": 5,
+      "Chưa từng": 4,
+      "Có, nhưng rất hiếm": 2,
+      "Có, khá thường xuyên": 1
+    },
+    "Q7_last_group_session": {
+      "Có người đã đồng ý nhưng không xuất hiện": 1,
+      "(Không trả lời)": 4,
+      "Có người vào trễ": 5,
+      "Cuối cùng cả nhóm không học": 1,
+      "Khác": 1
+    },
+    "Q8_accountability": {
+      "Có trách nhiệm hơn một chút": 4,
+      "(Không trả lời)": 4,
+      "Có trách nhiệm xuất hiện hoặc tiếp tục học hơn rõ rệt": 4
+    },
+    "Q7B_no_appointment": {
+      "(Không trả lời)": 8,
+      "Tôi thích học một mình hơn": 3,
+      "Tôi thích học một mình hơn, Việc rủ hoặc hẹn khá phiền": 1
+    },
+    "Q10_commitment_rating": {
+      "1": 1,
+      "3": 5,
+      "4": 5,
+      "5": 1
+    },
+    "Q11_value": {
+      "Có giờ bắt đầu và kết thúc rõ ràng": 4,
+      "Biết chính xác ai đã đồng ý tham gia": 2,
+      "Đến giờ thấy ai đã điểm danh": 3,
+      "Biết ai không xuất hiện hoặc bỏ sớm": 1,
+      "Không phần nào đặc biệt có giá trị": 1,
+      "Thấy lịch sử mình đã giữ hoặc bỏ bao nhiêu cam kết": 1
+    },
+    "Q12_different_rooms": {
+      "Không; nếu không cùng phòng thì cam kết gần như vô nghĩa": 5,
+      "Có, nhưng yếu hơn một chút": 3,
+      "Có, gần như không khác việc cùng một phòng": 2,
+      "Yếu hơn nhiều; tôi cần ở cùng một phòng mới cảm thấy có trách nhiệm": 2
+    },
+    "Q13_concerns": {
+      "messaging_enough": 6,
+      "too_many_steps": 4,
+      "peer_pressure": 3,
+      "visibility": 2,
+      "matching_times": 5
+    },
+    "Q14_invite_response_intention": {
+      "Tôi thấy thông báo kiểu này dễ gây phiền": 2,
+      "Tôi sẽ xem nhưng thường chỉ tham gia nếu đó là người tôi hay học cùng": 3,
+      "Tôi có khả năng tham gia cao nếu thời gian, giờ giấc phù hợp": 6,
+      "Tôi thích được biết nhưng không nhất thiết tham gia": 1
+    },
+    "Q15_public_room_rating": {
+      "1": 4,
+      "2": 2,
+      "3": 2,
+      "4": 3,
+      "5": 1
+    },
+    "Q18_notifications": {
+      "invite": 8,
+      "own_reminder": 6,
+      "public_suggestion": 1,
+      "none": 1
+    },
+    "Q19_preferred_alternative": {
+      "Nhắn Messenger, Zalo hoặc Discord để hẹn một người bạn": 3,
+      "Gọi thoại hoặc gọi video với bạn bè": 2,
+      "Tự đặt bộ đếm thời gian hoặc dùng Pomodoro (phương pháp chia thời gian học thành các phiên tập trung ngắn)": 2,
+      "Tạo hoặc tham gia một cam kết trong ứng dụng với một vài người cụ thể": 1,
+      "Tôi không có nhu cầu tạo thêm trách nhiệm với kế hoạch học": 1,
+      "Đi thư viện hoặc quán cà phê": 3
+    },
+    "Q20_install_intention": {
+      "Tôi không ngại cài nếu tính năng cam kết và bạn bè thật sự hữu ích": 5,
+      "Tôi chỉ cài nếu một vài người bạn của tôi cũng dùng": 4,
+      "Tùy trải nghiệm hoặc thời điểm": 1,
+      "Tôi muốn thử qua liên kết hoặc trang web trước, chỉ cài nếu thấy hữu ích": 1,
+      "Tôi có xu hướng không cài thêm ứng dụng cho nhu cầu này": 1
+    },
+    "Q23_followup_opt_in": {
+      "Không": 9,
+      "Có": 2,
+      "(Không trả lời)": 1
+    }
+  },
+  "derived": {
+    "Q21_planned_sessions": 52,
+    "Q22_reported_mostly_completed_sessions": 36,
+    "Q21_Q22_people_below_plan": 9,
+    "Q10_mean": 3.4166666666666665,
+    "Q10_rating_4_5": 6,
+    "Q15_rating_4_5": 4,
+    "Q15_rating_1_2": 6,
+    "feedback_respondents": 6,
+    "note": "Multi-select totals may exceed N. Q7/Q8 denominator is 8; four blanks are routing exclusions. Feedback respondent count includes one 'no comment' response; theme prevalence is not inferred."
+  }
+}
