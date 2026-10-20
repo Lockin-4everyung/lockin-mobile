@@ -2,7 +2,7 @@
   "project_url": "https://github.com/orgs/Lockin-4everyung/projects/1",
   "project_id": "PVT_kwDOFIXu8s4BnubA",
   "status": "published",
-  "assignees": "deferred_by_user",
+  "assignees": "User-confirmed responsibilities on 2026-10-20; 13 tasks assigned, 7 implementation/software-QA tasks pending.",
   "milestones": {
     "M1": {
       "number": 1,
@@ -32,7 +32,12 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQW6Dg",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz3iY",
       "status": "In Review",
-      "milestone": "M1"
+      "milestone": "M1",
+      "primary_assignee": "huynguyen1234567890",
+      "support_assignees": [],
+      "assignees": [
+        "huynguyen1234567890"
+      ]
     },
     "T-02": {
       "number": 2,
@@ -40,7 +45,12 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQW9wA",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz3mQ",
       "status": "Backlog",
-      "milestone": "M2"
+      "milestone": "M2",
+      "primary_assignee": "DucMinh2211",
+      "support_assignees": [],
+      "assignees": [
+        "DucMinh2211"
+      ]
     },
     "T-03": {
       "number": 3,
@@ -48,7 +58,15 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXBgw",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz3qo",
       "status": "Backlog",
-      "milestone": "M2"
+      "milestone": "M2",
+      "primary_assignee": "DucMinh2211",
+      "support_assignees": [
+        "huynguyen1234567890"
+      ],
+      "assignees": [
+        "DucMinh2211",
+        "huynguyen1234567890"
+      ]
     },
     "T-04": {
       "number": 4,
@@ -56,7 +74,15 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXFYg",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz3v0",
       "status": "Backlog",
-      "milestone": "M2"
+      "milestone": "M2",
+      "primary_assignee": "DucMinh2211",
+      "support_assignees": [
+        "huynguyen1234567890"
+      ],
+      "assignees": [
+        "DucMinh2211",
+        "huynguyen1234567890"
+      ]
     },
     "T-05": {
       "number": 5,
@@ -64,7 +90,12 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXJIQ",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz3z4",
       "status": "In Review",
-      "milestone": "M1"
+      "milestone": "M1",
+      "primary_assignee": "DucMinh2211",
+      "support_assignees": [],
+      "assignees": [
+        "DucMinh2211"
+      ]
     },
     "T-06": {
       "number": 6,
@@ -72,7 +103,12 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXM7Q",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz33s",
       "status": "Backlog",
-      "milestone": "M1"
+      "milestone": "M1",
+      "primary_assignee": "minhphan-hcmut",
+      "support_assignees": [],
+      "assignees": [
+        "minhphan-hcmut"
+      ]
     },
     "T-07": {
       "number": 7,
@@ -80,7 +116,10 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXQdg",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz38o",
       "status": "Backlog",
-      "milestone": "M2"
+      "milestone": "M2",
+      "primary_assignee": null,
+      "support_assignees": [],
+      "assignees": []
     },
     "T-08": {
       "number": 8,
@@ -88,7 +127,12 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXVDg",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz4Bk",
       "status": "Backlog",
-      "milestone": "M2"
+      "milestone": "M2",
+      "primary_assignee": "Hungg101",
+      "support_assignees": [],
+      "assignees": [
+        "Hungg101"
+      ]
     },
     "T-09": {
       "number": 9,
@@ -96,7 +140,10 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXZIQ",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz4G0",
       "status": "Backlog",
-      "milestone": "M3"
+      "milestone": "M3",
+      "primary_assignee": null,
+      "support_assignees": [],
+      "assignees": []
     },
     "T-10": {
       "number": 10,
@@ -104,7 +151,10 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXdXA",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz4Kc",
       "status": "Backlog",
-      "milestone": "M3"
+      "milestone": "M3",
+      "primary_assignee": null,
+      "support_assignees": [],
+      "assignees": []
     },
     "T-11": {
       "number": 11,
@@ -112,7 +162,10 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXgoA",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz4Ow",
       "status": "Backlog",
-      "milestone": "M3"
+      "milestone": "M3",
+      "primary_assignee": null,
+      "support_assignees": [],
+      "assignees": []
     },
     "T-12": {
       "number": 12,
@@ -120,7 +173,10 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXkww",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz4Tk",
       "status": "Backlog",
-      "milestone": "M3"
+      "milestone": "M3",
+      "primary_assignee": null,
+      "support_assignees": [],
+      "assignees": []
     },
     "T-13": {
       "number": 13,
@@ -128,7 +184,10 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXo7w",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz4Yc",
       "status": "Backlog",
-      "milestone": "M3"
+      "milestone": "M3",
+      "primary_assignee": null,
+      "support_assignees": [],
+      "assignees": []
     },
     "T-14": {
       "number": 14,
@@ -136,7 +195,10 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXs2Q",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz4c4",
       "status": "Backlog",
-      "milestone": "M3"
+      "milestone": "M3",
+      "primary_assignee": null,
+      "support_assignees": [],
+      "assignees": []
     },
     "T-15": {
       "number": 15,
@@ -144,7 +206,15 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQXxoA",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz4iw",
       "status": "Backlog",
-      "milestone": "M4"
+      "milestone": "M4",
+      "primary_assignee": "DucMinh2211",
+      "support_assignees": [
+        "huynguyen1234567890"
+      ],
+      "assignees": [
+        "DucMinh2211",
+        "huynguyen1234567890"
+      ]
     },
     "T-16": {
       "number": 16,
@@ -152,7 +222,15 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQX11g",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz4nc",
       "status": "Backlog",
-      "milestone": "M4"
+      "milestone": "M4",
+      "primary_assignee": "DucMinh2211",
+      "support_assignees": [
+        "huynguyen1234567890"
+      ],
+      "assignees": [
+        "DucMinh2211",
+        "huynguyen1234567890"
+      ]
     },
     "T-17": {
       "number": 17,
@@ -160,7 +238,12 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQX5aQ",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz4q0",
       "status": "In Review",
-      "milestone": "M1"
+      "milestone": "M1",
+      "primary_assignee": "minhphan-hcmut",
+      "support_assignees": [],
+      "assignees": [
+        "minhphan-hcmut"
+      ]
     },
     "T-18": {
       "number": 18,
@@ -168,7 +251,15 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQX8ww",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz4v0",
       "status": "In Review",
-      "milestone": "M1"
+      "milestone": "M1",
+      "primary_assignee": "minhphan-hcmut",
+      "support_assignees": [
+        "huynguyen1234567890"
+      ],
+      "assignees": [
+        "huynguyen1234567890",
+        "minhphan-hcmut"
+      ]
     },
     "T-19": {
       "number": 19,
@@ -176,7 +267,15 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQYBhA",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz4zs",
       "status": "In Review",
-      "milestone": "M1"
+      "milestone": "M1",
+      "primary_assignee": "DucMinh2211",
+      "support_assignees": [
+        "huynguyen1234567890"
+      ],
+      "assignees": [
+        "DucMinh2211",
+        "huynguyen1234567890"
+      ]
     },
     "T-20": {
       "number": 20,
@@ -184,7 +283,12 @@
       "node_id": "I_kwDOVOWDqM8AAAABYQYFVg",
       "item_id": "PVTI_lADOFIXu8s4BnubAzhBz43Y",
       "status": "Backlog",
-      "milestone": "M1"
+      "milestone": "M1",
+      "primary_assignee": "DucMinh2211",
+      "support_assignees": [],
+      "assignees": [
+        "DucMinh2211"
+      ]
     }
   },
   "views": [
@@ -210,5 +314,7 @@
   ],
   "source_url": "https://github.com/Lockin-4everyung/lockin-mobile",
   "wiki_url": "https://github.com/Lockin-4everyung/lockin-mobile/wiki",
-  "verified_on": "2026-10-19"
+  "verified_on": "2026-10-19",
+  "team_confirmed_on": "2026-10-20",
+  "figma_url": "https://www.figma.com/design/toEag0gceMnBkZudr5Yej0/LockIn"
 }

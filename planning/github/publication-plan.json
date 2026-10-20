@@ -5,7 +5,6 @@
   "project_url": "https://github.com/orgs/Lockin-4everyung/projects/1/views/1",
   "checked_public_on": "2026-10-19",
   "publication_status": "applied_to_project",
-  "assignees": "Intentionally deferred by user; do not invent usernames.",
   "status_mapping": {
     "Backlog": "Backlog",
     "To Do": "Todo",
@@ -42,7 +41,9 @@
       "milestone_key": "M1",
       "status": "In Review",
       "body_file": "issues/T-01.md",
-      "assignees": []
+      "assignees": [
+        "huynguyen1234567890"
+      ]
     },
     {
       "task_id": "T-02",
@@ -50,7 +51,9 @@
       "milestone_key": "M2",
       "status": "Backlog",
       "body_file": "issues/T-02.md",
-      "assignees": []
+      "assignees": [
+        "DucMinh2211"
+      ]
     },
     {
       "task_id": "T-03",
@@ -58,7 +61,10 @@
       "milestone_key": "M2",
       "status": "Backlog",
       "body_file": "issues/T-03.md",
-      "assignees": []
+      "assignees": [
+        "DucMinh2211",
+        "huynguyen1234567890"
+      ]
     },
     {
       "task_id": "T-04",
@@ -66,7 +72,10 @@
       "milestone_key": "M2",
       "status": "Backlog",
       "body_file": "issues/T-04.md",
-      "assignees": []
+      "assignees": [
+        "DucMinh2211",
+        "huynguyen1234567890"
+      ]
     },
     {
       "task_id": "T-05",
@@ -74,7 +83,9 @@
       "milestone_key": "M1",
       "status": "In Review",
       "body_file": "issues/T-05.md",
-      "assignees": []
+      "assignees": [
+        "DucMinh2211"
+      ]
     },
     {
       "task_id": "T-06",
@@ -82,7 +93,9 @@
       "milestone_key": "M1",
       "status": "Backlog",
       "body_file": "issues/T-06.md",
-      "assignees": []
+      "assignees": [
+        "minhphan-hcmut"
+      ]
     },
     {
       "task_id": "T-07",
@@ -98,7 +111,9 @@
       "milestone_key": "M2",
       "status": "Backlog",
       "body_file": "issues/T-08.md",
-      "assignees": []
+      "assignees": [
+        "Hungg101"
+      ]
     },
     {
       "task_id": "T-09",
@@ -154,7 +169,10 @@
       "milestone_key": "M4",
       "status": "Backlog",
       "body_file": "issues/T-15.md",
-      "assignees": []
+      "assignees": [
+        "DucMinh2211",
+        "huynguyen1234567890"
+      ]
     },
     {
       "task_id": "T-16",
@@ -162,7 +180,10 @@
       "milestone_key": "M4",
       "status": "Backlog",
       "body_file": "issues/T-16.md",
-      "assignees": []
+      "assignees": [
+        "DucMinh2211",
+        "huynguyen1234567890"
+      ]
     },
     {
       "task_id": "T-17",
@@ -170,7 +191,9 @@
       "milestone_key": "M1",
       "status": "In Review",
       "body_file": "issues/T-17.md",
-      "assignees": []
+      "assignees": [
+        "minhphan-hcmut"
+      ]
     },
     {
       "task_id": "T-18",
@@ -178,7 +201,10 @@
       "milestone_key": "M1",
       "status": "In Review",
       "body_file": "issues/T-18.md",
-      "assignees": []
+      "assignees": [
+        "minhphan-hcmut",
+        "huynguyen1234567890"
+      ]
     },
     {
       "task_id": "T-19",
@@ -186,7 +212,10 @@
       "milestone_key": "M1",
       "status": "In Review",
       "body_file": "issues/T-19.md",
-      "assignees": []
+      "assignees": [
+        "DucMinh2211",
+        "huynguyen1234567890"
+      ]
     },
     {
       "task_id": "T-20",
@@ -194,7 +223,9 @@
       "milestone_key": "M1",
       "status": "Backlog",
       "body_file": "issues/T-20.md",
-      "assignees": []
+      "assignees": [
+        "DucMinh2211"
+      ]
     }
   ],
   "table_view": {
@@ -207,5 +238,7 @@
       "Milestone"
     ]
   },
-  "dates": "No due dates supplied; leave unset."
+  "dates": "No due dates supplied; leave unset.",
+  "assignment_source": "planning/team.json; confirmed 2026-10-20",
+  "figma_url": "https://www.figma.com/design/toEag0gceMnBkZudr5Yej0/LockIn"
 }

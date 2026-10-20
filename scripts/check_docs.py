@@ -62,6 +62,8 @@ def check_traceability():
     plan = (wiki / "13-Project-Foundation-Plan.md").read_text(encoding="utf-8")
     with (ROOT / "planning/backlog.csv").open(encoding="utf-8", newline="") as stream:
         tasks = list(csv.DictReader(stream))
+    team = json.loads((ROOT / "planning/team.json").read_text(encoding="utf-8"))
+    members = {member["github"] for member in team["members"]}
     ids = {t["id"] for t in tasks}
     require(len(ids) == len(tasks) == 20, "Expected 20 unique backlog tasks.")
     for task in tasks:
@@ -70,7 +72,11 @@ def check_traceability():
         require(task["owner_role"] and task["acceptance_criteria"], f"Missing role/acceptance: {task_id}")
         match = re.search(r"^\| " + re.escape(task_id) + r" \|.*$", plan, re.M)
         require(match and f"| {task['status']} |" in match.group(0), f"Plan/CSV status mismatch: {task_id}")
-        require(not task["github_assignee"], f"Assignee was deferred by user: {task_id}")
+        assigned = [task["github_assignee"]] if task["github_assignee"] else []
+        assigned += list(filter(None, task.get("github_support", "").split(";")))
+        require(all(user in members for user in assigned), f"Unknown team member assigned to {task_id}")
+        if task_id in team["unassigned_tasks"]:
+            require(not assigned, f"Owner not yet specified for {task_id}")
         if task["github_issue_url"]:
             require(re.fullmatch(r"https://github\.com/Lockin-4everyung/lockin-mobile/issues/\d+", task["github_issue_url"]), f"Invalid published issue URL: {task_id}")
         for dep in filter(None, task["depends_on"].split(";")):

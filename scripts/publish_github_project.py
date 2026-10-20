@@ -64,7 +64,7 @@ def main():
         raise RuntimeError("Need repository write and Project write before publishing.")
     print("Authenticated:", data["viewer"]["login"], "| repo:", permission, flush=True)
     state = {"project_url": project["url"], "project_id": project["id"],
-             "status": "in_progress", "assignees": "deferred_by_user",
+             "status": "in_progress", "assignees": "See planning/team.json; preserve existing assignments",
              "milestones": {}, "issues": {}, "views": project["views"]["nodes"]}
     save(state)
     milestones = api(f"repos/{TARGET}/milestones?state=all&per_page=100")
@@ -92,7 +92,8 @@ def main():
             f"repos/{TARGET}/issues", "POST",
             {"title": task["title"],
              "body": (PACKAGE / task["body_file"]).read_text(encoding="utf-8"),
-             "milestone": state["milestones"][task["milestone_key"]]["number"]}
+             "milestone": state["milestones"][task["milestone_key"]]["number"],
+             "assignees": task.get("assignees", [])}
         )
         if not matches:
             issues.append(issue)
@@ -137,7 +138,7 @@ mutation($p:ID!,$r:ID!){linkProjectV2ToRepository(input:{projectId:$p,repository
         columns, tasks = reader.fieldnames, list(reader)
     for task in tasks:
         task["github_issue_url"] = state["issues"][task["id"]]["url"]
-        task["notes"] = "Published in Project #1; assignee intentionally deferred by user."
+        task["notes"] = "Published in Project #1; current ownership is tracked in planning/team.json and the backlog."
     with (ROOT / "planning/backlog.csv").open("w", encoding="utf-8", newline="") as stream:
         writer = csv.DictWriter(stream, fieldnames=columns, quoting=csv.QUOTE_ALL)
         writer.writeheader()

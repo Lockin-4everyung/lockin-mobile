@@ -1,8 +1,8 @@
 # LockIn - Assignment 1
 
-> Updated 19/10/2026 · Product discovery & project foundation.
+> Updated 20/10/2026 · Product discovery & project foundation.
 
-**Product direction:** lời hẹn tự học với 1–3 bạn quen → giờ rõ → RSVP → nhắc → check-in → outcome tự báo cáo. H1 còn cần kiểm chứng so với chat/lịch; hoãn public rooms và chat/video riêng.
+**Product direction:** lời hẹn tự học với 1-3 bạn quen → giờ rõ → RSVP → nhắc → check-in → outcome tự báo cáo. H1 còn cần kiểm chứng so với chat/lịch; hoãn public rooms và chat/video riêng.
 
 ## Mục lục theo đề
 
@@ -30,11 +30,12 @@
 - [References và trạng thái nghiên cứu](12-Research-Review-References.md).
 - [Product rules / metric definitions](17-Product-Rules-Metrics.md).
 - [Follow-up protocol và mẫu ghi chép trống](18-Research-Protocol.md).
+- [Figma - LockIn](https://www.figma.com/design/toEag0gceMnBkZudr5Yej0/LockIn), Hùng (Hungg101) phụ trách; link tham khảo do nhóm cung cấp, chưa đánh giá mức hoàn thành prototype.
 
 ## Điểm truy cập và tình trạng thực tế
 
 [Organization](https://github.com/Lockin-4everyung) · [Repository](https://github.com/Lockin-4everyung/lockin-mobile) · [GitHub Project](https://github.com/orgs/Lockin-4everyung/projects/1/views/1).
 
-Project #1 đã được người dùng tạo và xác minh public qua API ngày 19/10/2026, title “LockIn - Product Development”. Đã có 20 issue, 4 milestone và [All Tasks table](https://github.com/orgs/Lockin-4everyung/projects/1/views/2); giữ trạng thái Backlog, Todo, In Progress, In Review, Done. Người dùng yêu cầu để phân công sau nên Assignee để trống. [GitHub Wiki](https://github.com/Lockin-4everyung/lockin-mobile/wiki) là bản xuất bản; nguồn được lưu trong repo. [Danh sách việc còn lại](15-Submission-Checklist.md).
+Project #1 có 20 issue, 4 milestone và [All Tasks table](https://github.com/orgs/Lockin-4everyung/projects/1/views/2); giữ trạng thái Backlog, Todo, In Progress, In Review, Done. Nhóm đã xác nhận phân công ngày 20/10/2026: Huy phân tích số liệu/hỗ trợ research, Minh Phan phụ trách GitHub setup, Hùng phụ trách Figma, Đức Minh lead/tạo Form/research. Đã gán các task phù hợp; 7 task code/QA phần mềm chưa có người được chỉ định. [GitHub Wiki](https://github.com/Lockin-4everyung/lockin-mobile/wiki) là bản xuất bản; nguồn được lưu trong repo. [Danh sách việc còn lại](15-Submission-Checklist.md).
 
 Số liệu survey là retrospective self-report, không phải quan sát sản phẩm. HCMUT là bối cảnh theo ZIP, chưa xác minh affiliation từng người. Kế hoạch follow-up [P] không được đọc như kết quả đã có.

@@ -35,4 +35,10 @@ Phỏng vấn, benchmark và pilot chưa thực hiện. Tài liệu nêu thẳng
 
 ## Publication update - 19/10/2026
 
-Đã xác thực DucMinh2211 với quyền ADMIN repo và quyền sửa Project. Đã tạo 4 milestone, 20 issue có acceptance/dependencies/traceability, liên kết Project với lockin-mobile và thêm All Tasks table. Giữ Board và Status của người dùng. Repo và Wiki được xuất bản; T-17 chuyển In Review để nhóm kiểm tra. Assignee để trống theo yêu cầu, không tự đặt deadline và không đánh dấu nghiên cứu/build tương lai Done. Các đoạn về thiếu quyền/Project chưa có phía trên là lịch sử trước khi xác thực và xuất bản.
+Đã xác thực DucMinh2211 với quyền ADMIN repo và quyền sửa Project. Đã tạo 4 milestone, 20 issue có acceptance/dependencies/traceability, liên kết Project với lockin-mobile và thêm All Tasks table. Giữ Board và Status của người dùng. Repo và Wiki được xuất bản; T-17 chuyển In Review để nhóm kiểm tra. Assignee để trống theo yêu cầu ở thời điểm này, không tự đặt deadline và không đánh dấu nghiên cứu/build tương lai Done. Các đoạn về thiếu quyền/Project chưa có phía trên là lịch sử trước khi xác thực và xuất bản.
+
+## Team update - 20/10/2026
+
+Người dùng cung cấp Figma https://www.figma.com/design/toEag0gceMnBkZudr5Yej0/LockIn và xác nhận: Huy phân tích số liệu/hỗ trợ research; Minh Phan setup repo/org/project; Hùng làm Figma; Đức Minh lead/tạo Form/research. Đã đối chiếu đủ 4 username với organization và gán 13 task phù hợp, phân biệt chủ trì/hỗ trợ. 7 task code/QA phần mềm chưa được chỉ định nên giữ trống. Giữ nguyên trạng thái 5 In Review, 15 Backlog, 0 Done. Link Figma là reference do nhóm cung cấp, chưa được kiểm tra nội dung hoặc xác nhận prototype hoàn thành.
+
+Đã đồng bộ các chỉnh sửa README của nhóm và giữ thay đổi 1-3 bạn trong Wiki Home trước khi xuất lại Wiki. Công cụ verify_github_publication.py được chuyển thành read-only để kiểm tra assignment hiện tại, không đặt lại trạng thái hoặc README Project khi chạy kiểm tra.

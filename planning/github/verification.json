@@ -1,5 +1,5 @@
 {
-  "verified_on": "2026-10-19",
+  "verified_on": "2026-10-20",
   "public": true,
   "items": 20,
   "status_counts": {
@@ -7,7 +7,8 @@
     "Backlog": 15
   },
   "milestones": 4,
-  "unassigned": 20,
+  "assigned_tasks": 13,
+  "unassigned_tasks": 7,
   "views": [
     {
       "number": 1,
@@ -67,6 +68,6 @@
       "authenticated": false
     }
   ],
-  "mermaid": "Both flowchart-v2 definitions parsed successfully; live visual review remains a team review task.",
-  "submission": "Not submitted to course portal."
+  "figma_access": "User-provided link; design contents not reviewed by this checker.",
+  "submission": "No course submission performed by this checker."
 }

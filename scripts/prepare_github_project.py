@@ -13,6 +13,7 @@ SOURCE = f"https://github.com/{ORG}/{REPO}/blob/main/docs/wiki"
 PAGE_MAP = {
     "Research": "05-User-Market-Research.md",
     "Product": "09-MVP-Scope-Impact-Effort.md",
+    "Design": "11-Critical-User-Flows.md",
     "Mobile": "11-Critical-User-Flows.md",
     "Data": "17-Product-Rules-Metrics.md",
     "QA": "11-Critical-User-Flows.md",
@@ -41,7 +42,7 @@ def main():
         "organization": ORG, "repository": REPO, "project_number": 1,
         "project_url": PROJECT, "checked_public_on": "2026-10-19",
         "publication_status": "prepared_local_not_published",
-        "assignees": "Intentionally deferred by user; do not invent usernames.",
+        "assignment_source": "planning/team.json; user-confirmed 2026-10-20; implementation/software QA pending",
         "status_mapping": {"Backlog": "Backlog", "To Do": "Todo", "In Progress": "In Progress", "Review": "In Review", "Done": "Done"},
         "milestones": [], "issues": [],
         "table_view": {"name": "All Tasks", "layout": "table",
@@ -54,12 +55,15 @@ def main():
         manifest["milestones"].append({"key": key, **payload})
     for task in tasks:
         task_id = task["id"]
+        primary = task.get("github_assignee", "")
+        support = list(filter(None, task.get("github_support", "").split(";")))
+        assignees = ([primary] if primary else []) + support
         criteria = [part.strip() for part in task["acceptance_criteria"].split(";") if part.strip()]
         body = [
             f"## Mục tiêu\n\n{task['title']}.",
             f"## Theo dõi\n\n- Task ID: {task_id}\n- Milestone: {task['milestone']}\n"
             f"- Status đề xuất: {manifest['status_mapping'][task['status']]}\n"
-            "- Assignee: để trống theo yêu cầu người dùng, sẽ phân công sau.",
+            f"- Chủ trì: {primary or 'Chưa phân công'}\n- Hỗ trợ: {', '.join(support) or '-'}",
             "## Traceability\n\n"
             f"- Evidence / hypothesis / assignment requirement: {task['evidence_or_requirement'] or 'Project foundation'}\n"
             f"- User stories: {task['stories'] or 'Không áp dụng cho research/foundation task'}\n"
@@ -85,11 +89,11 @@ def main():
         manifest["issues"].append({
             "task_id": task_id, "title": f"[{task_id}] {task['title']}",
             "milestone_key": task["milestone"], "status": manifest["status_mapping"][task["status"]],
-            "body_file": f"issues/{task_id}.md", "assignees": []
+            "body_file": f"issues/{task_id}.md", "assignees": assignees
         })
     (OUT / "publication-plan.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Prepared {len(MILESTONES)} milestone payloads and {len(tasks)} issue bodies.")
-    print("No GitHub objects were created; assignees and due dates are intentionally unset.")
+    print("No GitHub objects were created; assignments follow the backlog, and due dates remain unset.")
 
 if __name__ == "__main__":
     main()

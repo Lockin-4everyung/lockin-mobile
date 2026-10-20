@@ -42,7 +42,7 @@ Repo và Wiki đã được xuất bản ngày 19/10/2026 theo yêu cầu ngư�
 1. Dùng Project của organization nếu đã có; không tạo duplicate. Xác minh URL và quyền public/read của người chấm.
 2. Field Status: Backlog, To Do, In Progress, Review, Done; thêm Milestone, Assignee, Role, Task ID, Story/Feature/Flow, Dependencies.
 3. Dùng planning/backlog.csv làm input tạo issue/draft item qua UI hoặc công cụ được nhóm chọn; CSV không phải board và không hứa GitHub tự import mọi field.
-4. Đã có 4 milestone và 20 issue trong Project #1. Người dùng yêu cầu để Assignee trống và phân công sau; khi chốt người phụ trách, dùng username thật thay role. Giữ đúng trạng thái evidence/artifact; chưa làm thì không Done.
+4. Đã có 4 milestone và 20 issue trong Project #1. Phân công được ghi trong planning/team.json và backlog.csv, gồm chủ trì/hỗ trợ; 7 task code/QA phần mềm chưa có người được chỉ định. Giữ đúng trạng thái evidence/artifact; chưa làm thì không Done.
 5. Lưu issue number/URL và Project item vào task mapping sau khi tạo, cập nhật docs/README.
 6. Board/Table theo status/assignee, Roadmap theo milestone; báo progress dựa trên outcome và blocked dependencies.
 

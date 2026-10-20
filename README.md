@@ -4,15 +4,16 @@ LockIn nghiên cứu liệu lời hẹn tự học với bạn quen, có giờ r
 
 **Bắt đầu tại [GitHub Wiki - Assignment 1](https://github.com/Lockin-4everyung/lockin-mobile/wiki).**
 
-| Điểm truy cập | Trạng thái ngày 19/10/2026 |
+| Điểm truy cập | Trạng thái ngày 20/10/2026 |
 |---|---|
-| [GitHub Organization](https://github.com/Lockin-4everyung) | Đã xác nhận tồn tại; chưa xác nhận toàn bộ thành viên |
+| [GitHub Organization](https://github.com/Lockin-4everyung) | Đã xác nhận đủ 4 thành viên theo danh sách nhóm cung cấp |
 | [Repository](https://github.com/Lockin-4everyung/lockin-mobile) | Public, chứa nguồn tài liệu và kế hoạch tiếp tục |
 | [GitHub Wiki](https://github.com/Lockin-4everyung/lockin-mobile/wiki) | Home, 18 trang nội dung, 2 trang evidence tổng hợp và navigation |
 | [GitHub Project - Board](https://github.com/orgs/Lockin-4everyung/projects/1/views/1) | 20 issue gắn 4 milestone; giữ 5 trạng thái do nhóm tạo |
 | [GitHub Project - All Tasks](https://github.com/orgs/Lockin-4everyung/projects/1/views/2) | Table với Title, Assignees, Status, Milestone |
 | [Evidence public](docs/research/survey-summary.md) | Tổng hợp ẩn danh từ 12 phản hồi; không chứa dữ liệu liên hệ |
-| [Project plan](docs/wiki/13-Project-Foundation-Plan.md) | Backlog, role owner, dependencies và milestones; cần map thành viên thật |
+| [Project plan](docs/wiki/13-Project-Foundation-Plan.md) | Đã cập nhật phân công research, phân tích số liệu, thiết kế và GitHub setup; phần code/QA phần mềm chưa chốt |
+| [Figma - LockIn](https://www.figma.com/design/toEag0gceMnBkZudr5Yej0/LockIn) | Hùng (Hungg101) phụ trách; link do nhóm cung cấp |
 | [Submission checklist](docs/wiki/15-Submission-Checklist.md) | Ghi rõ phần còn thiếu, không tuyên bố đã nộp |
 
 Mobile là hướng để thử nghiệm. H1 về giá trị vượt công cụ hiện có vẫn **Investigate further**; chưa có interview/pilot, log dùng lại hoặc bằng chứng tăng hiệu quả học tập.
@@ -25,4 +26,4 @@ Mobile là hướng để thử nghiệm. H1 về giá trị vượt công cụ 
 - Bộ xuất hiện tại: dist/wiki và dist/LockIn-Assignment1-Wiki.zip, đều local/ignored.
 - [Hướng dẫn đưa lên GitHub](docs/PUBLISHING.md). Export chỉ tạo thư mục dist/wiki local; không push hoặc thay đổi GitHub.
 - [Backlog CSV](planning/backlog.csv), [mốc công việc](planning/milestones.csv), [những sửa đổi](docs/REVIEW-NOTES.md).
-- [Đối tượng GitHub đã tạo](planning/github/published-state.json): issue URL, milestone và Project item thật. Assignee được để trống theo yêu cầu người dùng; deadline chưa tự đặt.
+- [Đối tượng GitHub đã tạo](planning/github/published-state.json): issue URL, milestone và Project item thật. [Phân công nhóm](planning/team.json) được xác nhận ngày 20/10/2026; các task code/QA phần mềm còn trống, deadline chưa tự đặt.

@@ -9,7 +9,7 @@
 | User research | Đã đọc Sheet gốc 12 responses và tính lại aggregate | Kênh tuyển cũ, affiliation từng người, observation/pilot |
 | Alternatives | Desk research nguồn chính thức, đối chiếu ngày 19/10/2026 | Hands-on usability benchmark của các sản phẩm |
 | Decisions/MVP | Evidence-informed proposals, giới hạn và contradictions rõ | Team sign-off, feasibility/capacity xác nhận |
-| Project foundation | Organization, repo, Wiki và Project #1 public; 20 issue, 4 milestone, Board/Table | Phân công để sau theo yêu cầu người dùng; nhóm review nội dung và chốt deadline/capacity |
+| Project foundation | Organization, repo, Wiki và Project #1 public; 20 issue, 4 milestone, Board/Table; roster 4/4 và 13 task đã có chủ trì | 7 task code/QA phần mềm chưa phân công; nhóm review nội dung và chốt deadline/capacity |
 | Behavioral results | Không có, ghi rõ trong protocol | Attendance/repeat thực và hiệu quả học tập |
 
 ## Primary research source

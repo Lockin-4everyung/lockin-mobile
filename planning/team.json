@@ -1,0 +1,123 @@
+{
+  "confirmed_on": "2026-10-20",
+  "members": [
+    {
+      "name": "Huy Nguyễn",
+      "github": "huynguyen1234567890",
+      "responsibilities": [
+        "Phân tích số liệu khảo sát",
+        "Hỗ trợ nghiên cứu"
+      ]
+    },
+    {
+      "name": "Minh Phan",
+      "github": "minhphan-hcmut",
+      "responsibilities": [
+        "Thiết lập và quản lý repository",
+        "GitHub Organization",
+        "GitHub Project"
+      ]
+    },
+    {
+      "name": "Hùng",
+      "github": "Hungg101",
+      "responsibilities": [
+        "Thiết kế và prototype trên Figma"
+      ]
+    },
+    {
+      "name": "Đức Minh",
+      "github": "DucMinh2211",
+      "responsibilities": [
+        "Team lead",
+        "Tạo Google Form",
+        "Nghiên cứu",
+        "Review và điều phối sản phẩm"
+      ]
+    }
+  ],
+  "artifacts": {
+    "figma": {
+      "url": "https://www.figma.com/design/toEag0gceMnBkZudr5Yej0/LockIn",
+      "owner": "Hungg101",
+      "source": "Provided by user on 2026-10-20",
+      "content_reviewed": false
+    }
+  },
+  "task_owners": {
+    "T-01": {
+      "primary": "huynguyen1234567890",
+      "support": []
+    },
+    "T-02": {
+      "primary": "DucMinh2211",
+      "support": []
+    },
+    "T-03": {
+      "primary": "DucMinh2211",
+      "support": [
+        "huynguyen1234567890"
+      ]
+    },
+    "T-04": {
+      "primary": "DucMinh2211",
+      "support": [
+        "huynguyen1234567890"
+      ]
+    },
+    "T-05": {
+      "primary": "DucMinh2211",
+      "support": []
+    },
+    "T-06": {
+      "primary": "minhphan-hcmut",
+      "support": []
+    },
+    "T-08": {
+      "primary": "Hungg101",
+      "support": []
+    },
+    "T-15": {
+      "primary": "DucMinh2211",
+      "support": [
+        "huynguyen1234567890"
+      ]
+    },
+    "T-16": {
+      "primary": "DucMinh2211",
+      "support": [
+        "huynguyen1234567890"
+      ]
+    },
+    "T-17": {
+      "primary": "minhphan-hcmut",
+      "support": []
+    },
+    "T-18": {
+      "primary": "minhphan-hcmut",
+      "support": [
+        "huynguyen1234567890"
+      ]
+    },
+    "T-19": {
+      "primary": "DucMinh2211",
+      "support": [
+        "huynguyen1234567890"
+      ]
+    },
+    "T-20": {
+      "primary": "DucMinh2211",
+      "support": []
+    }
+  },
+  "unassigned_tasks": [
+    "T-07",
+    "T-09",
+    "T-10",
+    "T-11",
+    "T-12",
+    "T-13",
+    "T-14"
+  ],
+  "note": "Assignments derived from the user's confirmed responsibilities; no implementation or software-QA owner was specified. Task statuses remain unchanged."
+}

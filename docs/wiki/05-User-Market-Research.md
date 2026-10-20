@@ -1,4 +1,4 @@
-> **LockIn · CO3043 · Assignment 1 · Revised 19/10/2026**  
+> **LockIn · CO3043 · Assignment 1 · Revised 20/10/2026**  
 > Survey: 12 respondents (HCMUT internal); [S] survey, [D] desk research, [I] inference, [P] future test.
 
 ## 2.5. User / Market Research
@@ -8,6 +8,7 @@
 | Nội dung | Ghi nhận |
 |---|---|
 | Hình thức | Online, Google Forms; người dùng xác nhận ngày 19/10/2026 |
+| Phụ trách | Đức Minh (DucMinh2211) tạo Form và research; Huy (huynguyen1234567890) phân tích số liệu và hỗ trợ research, theo phân công ngày 20/10/2026 |
 | Bối cảnh tuyển mẫu | **Nội bộ HCMUT** (nhóm cung cấp) |
 | Thời gian | **08–12/10/2026**, theo timestamps trên Sheet đã đọc ngày 19/10/2026 |
 | Tổng phản hồi được phân tích | **12** |
