@@ -51,6 +51,8 @@ Tuần tính tương đối từ lúc nhóm chốt kế hoạch, không phải d
 
 Không khóa M3 trước khi T-07 xác minh identity/invite feasibility và T-04 chỉ ra friction. Có thể thử prototype trước build. Nếu M2 bác H1, sửa milestones/scope và decision log.
 
+[Project Architecture](19-Project-Architecture.md) chọn module theo feature, mobile phân lớp với React Native + Expo + TypeScript và managed backend Supabase. Đây là đầu vào thiết kế cho T-07 đến T-14; chưa có app/backend triển khai và không thay đổi trạng thái hoặc owner của các task.
+
 ## Backlog thực, dẫn xuất từ MVP
 
 Status dưới đây đồng bộ với GitHub Project. Review trong bảng tương ứng In Review trên board, nghĩa là artifact đã có và đang chờ review; không có nghĩa đã được nhóm duyệt. Các issue thật được liên kết ở cột GitHub issue. CSV nguồn: planning/backlog.csv.

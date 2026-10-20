@@ -18,7 +18,7 @@ Accepted participant đã check-in có thể chọn Left early trước end. T�
 
 - Retry cùng request không tạo phiên/RSVP/check-in thứ hai. Chưa server acknowledge thì hiển thị pending, không “đã lưu”.
 - Offline có thể xem lịch cache có nhãn chưa cập nhật; gửi lại check-in chỉ khi server còn trong window. Không backdate bằng đồng hồ máy; có thể ghi chú mất mạng riêng trong pilot.
-- Reminder đề xuất 10 phút trước start; nếu Accept sau mốc này, hiển thị lịch/in-app thay vì hứa giao reminder đã qua. Hủy phải vô hiệu nhắc cũ; nếu nhắc cũ đã hiện, khi mở phải thấy Cancelled.
+- Reminder đề xuất 10 phút trước start; nếu Accept sau mốc này, hiển thị lịch/in-app thay vì hứa giao reminder đã qua. Hủy vô hiệu lời mời tại server và hủy reminder trên máy khi đồng bộ. Với local-only, máy offline/app đóng có thể vẫn hiện nhắc cũ; khi mở phải kiểm tra lại và thấy Cancelled nếu đã tải được trạng thái, hoặc báo chưa xác minh khi offline. Không hứa xóa nhắc tức thì trên mọi máy.
 - Không có quyền notification vẫn xem lịch/check-in. Invite chia sẻ bằng chat/link, remote push không là dependency bắt buộc.
 - Background, tắt màn hình, đọc PDF, mở calculator hay code không tự đổi outcome. Roster hiển thị bản ghi check-in, không gọi đó là “đang tập trung trực tiếp”.
 
@@ -32,7 +32,7 @@ Accepted participant đã check-in có thể chọn Left early trước end. T�
 | Declined/Expired | Xác nhận response của mình nếu cần, không có quyền xem session/roster/outcomes |
 | Người ngoài hoặc người mở link sai identity | Không xem private details; lỗi chung, không lộ danh sách thành viên |
 
-Không public history/leaderboard về vắng/bỏ sớm. Chỉ thu identity tối thiểu; không import contacts/social graph/camera/chat. Cách login/invite capability cụ thể còn T-07; permission rules phải kiểm được trước pilot T-14.
+Không public history/leaderboard về vắng/bỏ sớm. Chỉ thu identity tối thiểu; không import contacts/social graph/camera/chat. [Project Architecture](19-Project-Architecture.md) chọn email OTP và link gắn đúng invitee; T-07 xác minh feasibility, permission rules phải kiểm được trước pilot T-14.
 
 ## Metric dictionary
 

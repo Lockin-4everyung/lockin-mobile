@@ -134,13 +134,15 @@ def check_survey():
 
 def main():
     links, diagrams = check_links(ROOT)
-    require(diagrams == 2, f"Expected two Mermaid flows, got {diagrams}.")
+    flow_text = (ROOT / "docs/wiki/11-Critical-User-Flows.md").read_text(encoding="utf-8")
+    flow_diagrams = len(re.findall(r"^(?:\x60{3}|~{3})mermaid\s*$", flow_text, re.M))
+    require(flow_diagrams == 2, f"Expected two critical user flows, got {flow_diagrams}.")
     check_traceability()
     check_survey()
     exported_links = 0
     if (ROOT / "dist/wiki").exists():
         exported_links, exported_diagrams = check_links(ROOT / "dist/wiki", wiki_export=True)
-        require(exported_diagrams == 2, "Wiki export lost a flow.")
+        require(exported_diagrams == diagrams, "Source/Wiki Mermaid block counts differ.")
     for error in ERRORS:
         print("ERROR:", error)
     print(f"{CHECKS} checks; {links} source links; {exported_links} exported links; {diagrams} Mermaid blocks.")

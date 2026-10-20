@@ -42,3 +42,9 @@ Phỏng vấn, benchmark và pilot chưa thực hiện. Tài liệu nêu thẳng
 Người dùng cung cấp Figma https://www.figma.com/design/toEag0gceMnBkZudr5Yej0/LockIn và xác nhận: Huy phân tích số liệu/hỗ trợ research; Minh Phan setup repo/org/project; Hùng làm Figma; Đức Minh lead/tạo Form/research. Đã đối chiếu đủ 4 username với organization và gán 13 task phù hợp, phân biệt chủ trì/hỗ trợ. 7 task code/QA phần mềm chưa được chỉ định nên giữ trống. Giữ nguyên trạng thái 5 In Review, 15 Backlog, 0 Done. Link Figma là reference do nhóm cung cấp, chưa được kiểm tra nội dung hoặc xác nhận prototype hoàn thành.
 
 Đã đồng bộ các chỉnh sửa README của nhóm và giữ thay đổi 1-3 bạn trong Wiki Home trước khi xuất lại Wiki. Công cụ verify_github_publication.py được chuyển thành read-only để kiểm tra assignment hiện tại, không đặt lại trạng thái hoặc README Project khi chạy kiểm tra.
+
+## Architecture update - 20/10/2026
+
+Theo yêu cầu chọn kiến trúc phù hợp, bổ sung Project Architecture: module theo feature, mobile phân lớp với React Native + Expo + TypeScript, Supabase Auth/PostgreSQL/RPC và local reminders. Có sơ đồ hệ thống/check-in, cấu trúc thư mục, data model, access boundary, idempotency, server time, offline/cache, test và trace tới T-07 đến T-14. Tham khảo tài liệu kỹ thuật chính thức; chưa scaffold app, tạo backend hoặc xác nhận spike hoàn thành.
+
+Đồng bộ các đoạn framework chưa chọn sang lựa chọn thiết kế hiện tại. Sửa câu roster chưa có vì nhóm đã xác nhận 4 người; capacity và owner phần code vẫn chưa chốt. Làm rõ giới hạn cancellation với local reminder trên thiết bị offline, tránh hứa xóa nhắc tức thì trên mọi máy. Task status và phân công giữ nguyên.

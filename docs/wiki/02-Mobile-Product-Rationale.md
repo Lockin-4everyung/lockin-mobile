@@ -11,7 +11,7 @@
 | Nhớ cam kết sắp đến giờ | Local/remote notifications, lịch | Nhắc đúng bối cảnh trước giờ học | Push có thể trễ, bị tắt hoặc không giao |
 | Check-in khi phiên bắt đầu | Một màn hình check-in ngắn | Giảm thao tác | Check-in không chứng minh thực sự học |
 | Theo dõi sự tham gia với bạn | Dữ liệu đồng bộ, cập nhật trạng thái | Biết ai đã nhận lời/đến giờ | Cần tôn trọng quyền riêng tư, tránh áp lực xã hội |
-| Rời/quay lại ứng dụng | [React Native AppState](https://reactnative.dev/docs/appstate) (nếu chọn framework này) | Nhận biết app ở foreground/background | **Không xác định được người dùng đang học hay mở app nào**, nên không dùng để kết luận mất tập trung |
+| Rời/quay lại ứng dụng | [React Native AppState](https://reactnative.dev/docs/appstate), theo [kiến trúc được chọn](19-Project-Architecture.md) | Nhận biết app ở foreground/background để refetch | **Không xác định được người dùng đang học hay mở app nào**, nên không dùng để kết luận mất tập trung |
 
 ### Các lựa chọn không dùng app riêng
 

@@ -30,6 +30,7 @@
 - [References và trạng thái nghiên cứu](12-Research-Review-References.md).
 - [Product rules / metric definitions](17-Product-Rules-Metrics.md).
 - [Follow-up protocol và mẫu ghi chép trống](18-Research-Protocol.md).
+- [Project Architecture: stack, modules, dữ liệu, quyền và đồng bộ](19-Project-Architecture.md).
 - [Figma - LockIn](https://www.figma.com/design/toEag0gceMnBkZudr5Yej0/LockIn), Hùng (Hungg101) phụ trách; link tham khảo do nhóm cung cấp, chưa đánh giá mức hoàn thành prototype.
 
 ## Điểm truy cập và tình trạng thực tế

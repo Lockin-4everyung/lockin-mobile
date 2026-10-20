@@ -33,13 +33,13 @@ F-02 effort cao vẫn cần cho coherent path: không mời/nhận lời an toà
 | F-07 | Completed/Left early/Unconfirmed tự báo; lịch sử ngắn của mình | H1 [P] → R-06 → US-07 | 2 / M (2) | MVP để đo follow-through |
 | F-08 | Creator hủy trước start; vô hiệu lời mời/nhắc cũ | Rủi ro lời hẹn thay đổi [I] → R-08 → US-10 | 3 / M (2) | MVP; đổi giờ bằng hủy rồi tạo mới |
 
-Khoảng **22 person-day** development sơ bộ cho F-01–F-08, chưa gồm 4 ngày thiết kế, 5 ngày kiểm thử, 4 ngày phân tích/review và các ngày lịch chạy nghiên cứu. [Project plan](13-Project-Foundation-Plan.md) yêu cầu xác nhận capacity thật trước khi chốt; chưa có roster nên chưa chứng minh đủ nguồn lực. Chưa chốt framework/backend theo ý kiến một người; thiết kế mobile là hướng đề xuất, không cam kết platform chưa kiểm tra thiết bị.
+Khoảng **22 person-day** development sơ bộ cho F-01–F-08, chưa gồm 4 ngày thiết kế, 5 ngày kiểm thử, 4 ngày phân tích/review và các ngày lịch chạy nghiên cứu. [Project plan](13-Project-Foundation-Plan.md) đã có roster 4 người, nhưng capacity và người phụ trách implementation chưa chốt nên chưa chứng minh đủ nguồn lực. [Project Architecture](19-Project-Architecture.md) chọn React Native + Expo + TypeScript và Supabase làm hướng triển khai; T-07 vẫn phải xác minh thiết bị, identity/invite và effort trước khi khóa kế hoạch build.
 
 ## Quy tắc sản phẩm dùng chung
 
 - [State rules và check-in window](17-Product-Rules-Metrics.md) là bản đề xuất thống nhất cho stories/flows/protocol.
 - Chỉ creator và Accepted participants xem roster/outcome của nhóm. Pending invitee có quyền xem tối thiểu inviter, giờ và mục đích để quyết định; người ngoài không thấy dữ liệu. Declined/Expired mất quyền phiên.
-- Link không tự cấp toàn quyền; xác thực đúng invitee trước RSVP. Cách identity cụ thể là spike T-07 trước khi thiết kế sâu.
+- Link không tự cấp toàn quyền; xác thực đúng invitee trước RSVP. Kiến trúc chọn email OTP và đối chiếu email của lời mời; T-07 phải kiểm chứng friction và access trên thiết bị thật.
 - Check-in cần server acknowledgement. Offline giữ trạng thái chưa gửi và retry khi còn trong window; không chấp nhận client clock như bằng chứng đúng giờ.
 - Background/đóng app/đọc PDF không đồng nghĩa rời phiên hoặc vắng học. Không dùng AppState để đánh giá tập trung.
 - Người dùng chủ động Left early hoặc Completed; không thao tác thì Unconfirmed. Không công khai bảng phạt/no-show.

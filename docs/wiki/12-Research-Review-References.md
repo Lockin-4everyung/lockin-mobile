@@ -26,10 +26,12 @@ Public supporting artifacts: [summary](../research/survey-summary.md), [aggregat
 4. D-04 - [StudyStream Focus rooms](https://help.studystream.live/hc/help/articles/1788197098-focus-rooms-everything-you-can-do), [Spaces and mobile availability](https://help.studystream.live/hc/help/articles/1786624910-spaces-study-together-and-talk-in-a-focus-room).
 5. D-05 - [YPT: developer Google Play listing](https://play.google.com/store/apps/details?id=com.pallo.passiontimerscoped).
 6. D-06 - [Forest official features and Plant Together](https://www.forestapp.cc/).
-7. D-07 - [React Native AppState](https://reactnative.dev/docs/appstate), chỉ tham khảo giới hạn capability, framework chưa chốt.
+7. D-07 - [React Native AppState](https://reactnative.dev/docs/appstate), tham khảo giới hạn capability; ngày 20/10 chọn React Native + Expo trong [Project Architecture](19-Project-Architecture.md), chưa triển khai.
 8. Foundation publication - [GitHub: adding/editing wiki pages locally](https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages).
 
 Nguồn website/store mô tả capability, không chứng minh UX, adoption hay hiệu quả trong target. Bảng [2.6](06-Existing-Solutions-Alternatives.md) giải thích lessons cho LockIn.
+
+Nguồn kỹ thuật bổ sung ngày 20/10/2026 được dẫn trực tiếp trong [Project Architecture](19-Project-Architecture.md): Expo, Supabase, TanStack Query và PostgreSQL. Đây là cơ sở thiết kế kỹ thuật, không phải bằng chứng H1 hoặc kết quả spike.
 
 ## Review và follow-up
 

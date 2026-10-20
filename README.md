@@ -8,12 +8,13 @@ LockIn nghiên cứu liệu lời hẹn tự học với bạn quen, có giờ r
 |---|---|
 | [GitHub Organization](https://github.com/Lockin-4everyung) | Đã xác nhận đủ 4 thành viên theo danh sách nhóm cung cấp |
 | [Repository](https://github.com/Lockin-4everyung/lockin-mobile) | Public, chứa nguồn tài liệu và kế hoạch tiếp tục |
-| [GitHub Wiki](https://github.com/Lockin-4everyung/lockin-mobile/wiki) | Home, 18 trang nội dung, 2 trang evidence tổng hợp và navigation |
+| [GitHub Wiki](https://github.com/Lockin-4everyung/lockin-mobile/wiki) | Home, 19 trang nội dung, 2 trang evidence tổng hợp và navigation |
 | [GitHub Project - Board](https://github.com/orgs/Lockin-4everyung/projects/1/views/1) | 20 issue gắn 4 milestone; giữ 5 trạng thái do nhóm tạo |
 | [GitHub Project - All Tasks](https://github.com/orgs/Lockin-4everyung/projects/1/views/2) | Table với Title, Assignees, Status, Milestone |
 | [Evidence public](docs/research/survey-summary.md) | Tổng hợp ẩn danh từ 12 phản hồi; không chứa dữ liệu liên hệ |
 | [Project plan](docs/wiki/13-Project-Foundation-Plan.md) | Đã cập nhật phân công research, phân tích số liệu, thiết kế và GitHub setup; phần code/QA phần mềm chưa chốt |
 | [Figma - LockIn](https://www.figma.com/design/toEag0gceMnBkZudr5Yej0/LockIn) | Hùng (Hungg101) phụ trách; link do nhóm cung cấp |
+| [Project Architecture](docs/wiki/19-Project-Architecture.md) | React Native + Expo + TypeScript, Supabase; thiết kế cho MVP, chưa triển khai |
 | [Submission checklist](docs/wiki/15-Submission-Checklist.md) | Ghi rõ phần còn thiếu, không tuyên bố đã nộp |
 
 Mobile là hướng để thử nghiệm. H1 về giá trị vượt công cụ hiện có vẫn **Investigate further**; chưa có interview/pilot, log dùng lại hoặc bằng chứng tăng hiệu quả học tập.

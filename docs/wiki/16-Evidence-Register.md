@@ -35,7 +35,7 @@ Public artifacts: [summary với cách đếm](../research/survey-summary.md), [
 | D-04 | [StudyStream Focus rooms](https://help.studystream.live/hc/help/articles/1788197098-focus-rooms-everything-you-can-do); [Spaces](https://help.studystream.live/hc/help/articles/1786624910-spaces-study-together-and-talk-in-a-focus-room) | Silent rooms, chat, Spaces; Spaces chỉ desktop web, Pods mobile tạm unavailable | Availability có thể đổi; không suy room là USP |
 | D-05 | [YPT Google Play listing](https://play.google.com/store/apps/details?id=com.pallo.passiontimerscoped) | Timer/todo, groups/status, rankings/stats, app blocking Android | Nội dung do developer công bố, chưa kiểm thử permissions/tính ổn định |
 | D-06 | [Forest official site](https://www.forestapp.cc/) | Focus timer, blocking và Plant Together | Không suy LockIn tốt hơn, availability tùy platform/version |
-| D-07 | [React Native AppState](https://reactnative.dev/docs/appstate) | Foreground/background state API | Không phát hiện người có học hay đang dùng app cụ thể; framework chưa chốt |
+| D-07 | [React Native AppState](https://reactnative.dev/docs/appstate) | Foreground/background state API | Không phát hiện người có học hay đang dùng app cụ thể; React Native + Expo đã được chọn cho bản thiết kế ngày 20/10, feasibility chưa kiểm chứng |
 
 Phân tích và implications tại [2.6](06-Existing-Solutions-Alternatives.md), không chỉ feature table. Không dùng lời quảng cáo, download count hay lời hứa tăng năng suất làm bằng chứng hiệu quả.
 
